@@ -1,4 +1,5 @@
 
+let app = document.getElementById('typewriter');
 
 function muestra_oculta(id) {
  
