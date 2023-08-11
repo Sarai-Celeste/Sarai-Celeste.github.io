@@ -1,138 +1,85 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    background-color: aquamarine;
+    background-color: rgb(231, 223, 145);
 }
-
-
 
 
  #menu a, button{
      font-size: 18px ;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
  }
 
+
  #menu a{
-     color:#3f3f3f;
+     color:#a02ce4;
      
  }
 
 
-.carousel-inner {
-    max-height:26rem ;
-
+#intro {
+    font-size: 20px  ;
+    color: #fffcfc;
+   
 }
 
-
-
-
-
-
-
-
-
-
+     
+     
 #bg-contactos{
     position:relative;
     top: -110px;
 } 
 
- #seccion-contacto{
-    background-color: #4e1b3f;
-    min-height:500px;
-    position:relative;
-}
-
 
 #contenedor-formulario{
     position:absolute;
     top:30%;
-    left:50%;
+    left:100%;
     transform: translate(-50%, -50%);
-    background: #fbfafa;
+    background: #da4848;
     border-radius:5px;
     
 }
 
+
+
 #titulo-formulario {
-    color: #3f3f3f;
+    color: #0c0c0c;
+    
 }
 
 
-
-
+#seccion-contact {
+background-color: #da4848;
+}
 
 
 footer {
-    background: #1b2a4e;
-    min-height: 100px;;
+    background: #395baa;
+    min-height: 50px;;
 }
+
+
 footer p{
-    color:#f3f3f3;
+    color:#f5efef;
     text-align:center;
 }
+
+
 #iconos  i {
-    font-size: 26px;
+    font-size: 30px;
     padding: 0 8px;
-    color:#c91414;
+    color:#f8fbfd;
+    background-color: rgb(7, 7, 7);
 }
 
 
 
-@media (max-width:1200px){
-    #intro, #equipo {
-        width:90% ;
-        margin:auto;
-    }
-  
-    #local {
-        flex-wrap: wrap;
-        padding-top:30px;
-   }
-   .wrapper-local {
-    width:90%;
-    margin:auto;
-    padding-top:50px;    
-   }
- 
-}
 
 
-
-@media (max-width:768px) {
-
-    #intro, #equipo{
-        width:90% ;
-        margin:auto;
-    }
-
-    
-    #img-equipo{
-        max-height:20rem ;
-        width:90%;
-    }
-    .wrapper-local {
-        width:90%;
-        margin:auto;
-        padding-top:50px;    
-    }
-    #local {
-        flex-wrap: wrap;
-    }
-    .mapa img {
-        width:100%;
-        height:auto;
-    }
-    #bg-contactos{
-        top: -120px;
-    }
-
-
-}
 
 @media (max-width: 576px) {
     #servicios-fila-2 {
